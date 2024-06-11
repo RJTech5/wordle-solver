@@ -1,6 +1,6 @@
 from words import word_array as wa, wordle_array as wa_wordle
 invalid_words = []
-# Sets wether the script using all 5 letter words, or just wordles possible soltuions
+# Sets wether the script uses all 5 letter words, or just wordles possible soltuions
 wordle = True
 
 if wordle:
