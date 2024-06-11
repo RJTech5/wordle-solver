@@ -2,13 +2,15 @@
 Wordle Solver is one of the best wordle solvers currently available. Using the NY Times word list, this solver can solve wordle puzzles within three guesses 80% of the time. In addition, this solver supports any 5-letter word wordle like puzzle.
 
 # Stats
-With wordle words (2314 words)
+With wordle word list (2314 words):
+
 Average Tries: 3.0099
 Within Three Tries: 79.395%
 
-With all five letter words (14,000 words)
-Average Tries: 3.69
-Within Three Tries: 79.395%
+With all five letter words (14,000 words):
+
+Average Tries: 4.17
+Within Three Tries: 34.366%
 
 # How to use
 Run main.py, and type the starting word "spald" (the best wordle word when playing perfectly) into your wordle game.
