@@ -10,6 +10,7 @@ This wordle Solver might be one of the best available wordle solvers. Using the 
 * Average Tries: **3.0099**
 * Within Three Tries: **79.395%**
 * Fails Excluded Average: 3.00
+  
 **Solving wordle word list knowing nothing:**
 * Average Tries: **3.696**
 * Fails Excluded Average: **3.663**
