@@ -17,14 +17,17 @@ Type the response by wordle into the command line by using "_" for absent or gre
 
 **Computer: Type "spald"**
 
+> wordles response: ⬛⬛⬛⬛⬛
 > your response: _____
 
 **Computer: Type "tenor"**
 
+> wordles response: ⬛🟨🟩🟨⬛
 > your response: _/n/_
 
 **Computer: Type "money"**
 
+> wordles response: 🟩🟩🟩🟩🟩
 > your response: money
 
 **Computer: The word is "money"!**
