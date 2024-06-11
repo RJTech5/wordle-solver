@@ -1,12 +1,13 @@
 import time
 from main import filter_words, get_most_used_word
-from words import word_array as wa, wordle_array as wa_wordle
-wordle = False
+from words import word_array as wa_all, wordle_array as wa_wordle
 
-if wordle:
-    waw = wa_wordle
-else:
-    waw = wa
+# Sets the word bank to create games from
+game_words = wa_wordle
+# Sets word bank to search from during games
+wa = wa_wordle
+
+
 
 # returns a response comparing a guessed word to an acutal word
 def check_word(guess, actual):
@@ -34,11 +35,10 @@ tries = []
 under_3 = 0
 failes = 0
 
-for i in enumerate(waw):
+for i in enumerate(game_words):
     print(i[0])
     word_act = i[1][0].lower()
     word_array = wa.copy()
-    word = i[1][0]
     complete = False
     invalid_words = []
     attempts = 0
@@ -76,13 +76,14 @@ for i in enumerate(waw):
                 complete = True
             else:
                 word = get_most_used_word(word_array, invalid_words)[0]
+
     if attempts <= 3:
         under_3 += 1
 
     if attempts > 6:
         failes += 1
         print(word_act)
-        tries.append(attempts)
+ #       tries.append(attempts)
     else:
         tries.append(attempts)
 
