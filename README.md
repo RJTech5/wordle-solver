@@ -3,12 +3,12 @@ Wordle Solver is one of the best wordle solvers currently available. Using the N
 
 ## Stats
 **With wordle word list (2314 words):**
-* Average Tries: 3.0099
-* Within Three Tries: 79.395%
+* Average Tries: **3.0099**
+* Within Three Tries: **79.395%**
 
 **With all five letter words (14,000 words):**
-* Average Tries: 4.17
-* Within Three Tries: 34.366%
+* Average Tries: **4.17**
+* Within Three Tries: **34.366%**
 
 ## How to use
 Run main.py, and type the starting word "spald" (the best wordle word when playing perfectly) into your wordle game.
